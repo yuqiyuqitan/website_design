@@ -1,0 +1,196 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.background{
+  background-color: #c4c0c0;
+  border: 2px solid black;
+  padding: 15px;
+  height: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.box {
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  border: 2px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.smallbox{
+  line-height: 25%;
+}
+
+#chicken{
+  background-color: #facaca;
+}
+
+#beef{
+  background-color: #ed5555;
+  color: white;
+}
+
+#sushi{
+  background-color: #fce979;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Destkop devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+  }
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 74.99%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
